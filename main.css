@@ -4,6 +4,7 @@
     100%{opacity:0%; left:20%;}
 }
 
+
 h1#welcomeIndex {
     width: 100px;
     height: 100px;
@@ -16,6 +17,17 @@ h1#welcomeIndex {
 
 body{
     background-color: black;
+}
+
+p#perfil{
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  color: aqua;
+}
+
+#side{
+  float: right;
 }
 
 footer{
@@ -54,12 +66,31 @@ body#mainBG{
     background-position-y: -10%;
 }
 
+/* AQUI EMPIEZA EL CODIGO PARA EL NAV BAR */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      
+      .topnav input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+      }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
     background-color: #b249ad;
+    /* position: fixed;
+    top: 0;
+    width: 100%; Por si quieres que se mueve cuando bajas la ventana. 
+    NO FUNCA CON EL DROPDOWN LIST por el momento*/
   }
 
   li {
@@ -69,8 +100,8 @@ ul {
   }
 
   li.side{
-    float: right !important;
-    width: 10% !important; 
+    float: left;
+    width: 10%; 
   }
 
 
@@ -84,9 +115,46 @@ ul {
 
   li a:hover {
     background-color: #111;
+  }  
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8349b2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #5b337c;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 
+  /* AQUI TERMINA PARA EL NAV BAR */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+
 /* ESTO ES PARA EL HAMBURGUER BAR */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
 
   .wrapper{
     position: absolute;
@@ -148,10 +216,17 @@ ul {
 }
 
 /* AQUI TERMINA EL CODIGO PARA EL HAMBURGUER BAR */
-
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
 
 
 /* AQUI ES PARA EL SLIDESHOW DE LAS IMAGENES */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
 
 * {box-sizing:border-box}
 
@@ -249,3 +324,5 @@ ul {
 }
 
 /* AQUI TERMINA EL CODIGO PARA EL SLIDESHOW DE LAS IMAGENES */
+      /* $$$$$$#######$$$$$$$ */
+      /* $$$$$$#######$$$$$$$ */
