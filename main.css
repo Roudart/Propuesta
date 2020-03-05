@@ -23,7 +23,7 @@ footer{
     background-color: #b249ad;
     border-top: ridge 5px;
     text-align: center;
-
+    
 }
 
 h1{
@@ -63,13 +63,18 @@ ul {
   }
 
   li {
+    border-right: 1px solid #bbb;
     float: left;
-    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   }
 
-  li a {
-    
+  li.side{
+    float: right !important;
+    width: 10% !important; 
+  }
 
+
+  li a {
     display: block;
     color: white;
     text-align: center;
