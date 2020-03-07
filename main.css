@@ -16,7 +16,7 @@ h1#welcomeIndex {
   }
 
 body{
-    background-color: black;
+    background-color: rgb(20, 20, 20);
 }
 
 p#perfil{
@@ -53,10 +53,6 @@ h2{
 form{
     color: white;
     text-align: center;
-}
-
-body{
-    background-color: black;
 }
 
 body#mainBG{
@@ -121,14 +117,8 @@ ul {
   li {
     border-right: 1px solid #bbb;
     float: left;
-    width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 13%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   }
-
-  li.side{
-    float: left;
-    width: 10%; 
-  }
-
 
   li a {
     display: block;
